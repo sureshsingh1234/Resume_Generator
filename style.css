@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+body {
+    background-image: url('Images/background.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container .row {
+    margin-top: 5%;
+    margin-left: 25%;
+
+}
+
+.resumeHead {
+    font-size: 5vh;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.form-group input[type=text] {
+    width: 34.5em;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.form-group textarea {
+    border: 1px solid #555;
+    border-radius: 10px;
+    width: 34.5em;
+    height: 4em;
+    background: transparent;
+}
+
+.profileLinkField,
+.obHead,
+.aqHead,
+.weHead,.epHead {
+    margin-top: 30px;
+    font-size: 3vh;
+}
+
+#professionalField {
+    margin-top: 40px;
+}
+.BTN{
+    color: white;
+    background-color: rgb(39, 3, 10);
+}
+
+.generateCV {
+    margin: 6%;
+    margin-left: 43%;
+    align-items: center;
+}
+
+.generateCV .btn {
+    border-radius: 10px;
+}
+
+
+/*----CV GENERATING----*/
+#cv-template {
+    display: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family:'Courier New', Courier, monospace;
+}
+.row #nameT2{
+    font-weight:980;
+    color: #111936;
+}
+.infoCV{
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.infoCV span{
+    font-size: 18px;
+}
+.infoCV hr{
+    width: 100%;
+    border: 2px solid white;
+    margin-top:0;
+}
+.infoCV label, p{
+    font-size: 13px;
+}
+.infoCV p{
+    font-weight: 100;
+    color: white;
+}
+
+.myimg {
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.background {
+    background-color: #111936;
+}
+.leftContainer{
+    width: 20%;
+    padding-left: 3%;
+}
+.rightContainer>div{
+    border: none;
+}
+.card-header{
+    border:none;
+    font-size: 25px;
+    color:#111936;
+}
+.card-header span{
+    font-weight:bold;
+}
+.card-header hr{
+    border: 2px solid black;
+    margin-top: 0;
+}
+.card-body{
+    font-size:14px;
+    margin-top: -20px;
+}
+.obCard{
+    padding-left: 2%;
+}
+.objective span{
+    font-size: 25px;
+    font-weight: bold;
+    color: #111936;
+}
+.objective hr{
+    border: 2px solid black;
+    margin-top:0;
+}
+.printBtn{
+    margin-top: 5%;
+    color: white;
+    background: #111936;
+}
